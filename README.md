@@ -1,5 +1,5 @@
 # playwright-fedora-patch
-In-place patches for Playwright and Patchright to stop crashing on Fedora/RHEL with ```apt-get: command not found```. Greasy fast-food tier code, but it works. This project contains modified files from Playwright and Patchright, both licensed under Apache-2.0. Modified portions are noted in each file.
+In-place patches for [Playwright](https://github.com/microsoft/playwright) and [Patchright](https://github.com/Kaliiiiiiiiii-Vinyzu/patchright) to stop crashing on Fedora/RHEL with ```apt-get: command not found```. Greasy fast-food tier code, but it works. This project contains modified files from Playwright and Patchright, both licensed under Apache-2.0. Modified portions are noted in each file.
 
 ## Problem
 When running crawl4ai-setup, we're told to run two installation commands, both `playwright install --with-deps` and `patchright install --with-deps` fail on the Fedora system with:
